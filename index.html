@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Banking Form</title>
+	</head>
+	<body>
+		<header>
+			<h1>ACME BANKING FORM</h1>
+		</header>
+
+			<p>Enter your information in the text fields:</p>
+
+			<h4>Applicant's Personal Information</h4>
+
+			<form action="/action_page.php">
+			  <input type="text" name="firstname" value="First Name">  
+			  <input type="text" name="mi" value="Middle Initial">  
+			  <input type="text" name="lastname" value="Last Name">
+			  <br><br>
+			  <input type="text" name="apStreet" value="Street Address">  
+			  <input type="text" name="apCity" value="City">  
+			  <input type="text" name="apState" value="State">
+			  <input type="text" name="apZip" value="Zip Code">
+			  <br><br>
+			  <input type="text" name="apPhone" value="Telephone Number">
+			  <input type="text" name="apEmail" value="Email Address">
+			  <input type="text" name="apLinkedin" value="Linked-In URL">
+			 </form>
+
+			  <br>
+			  <hr>
+
+			  <h4>Applicant's Employer Information</h4>
+			 <form>
+			  <input type="text" name="employer" value="Employer"><br>
+			  <input type="text" name="empStreet" value="Street Address">  
+			  <input type="text" name="empCity" value="City">  
+			  <input type="text" name="empState" value="State">
+			  <input type="text" name="empZip" value="Zip Code">
+			 </form>
+			 	<br>
+			  <hr>
+
+			 <h4>Loan Information</h4>
+	
+				<form name="myform">
+					<select name="loanAmountMenu">
+					<option value="select">Select Loan Type</option>
+					<option value="commercial">Commercial</option>
+					<option value="realestate">Real estate</option>
+					<option value="personal">Personal</option>
+					<option value="mortgage">Morgage</option>
+					</select>
+				</form>
+					<br>
+				<form>
+			  	<input type="text" name="loanamount" value="Total Loan Amount"><br>
+ 				</form>
+ 					<br>
+				<form>
+					Chooose length of the loan:
+					<br>
+				  <input type="radio" name="loanTime" value="5yr"> 5 years<br>
+				  <input type="radio" name="loanTime" value="15yr"> 15 years<br>
+				  <input type="radio" name="loanTime" value="30yr"> 30 years
+				</form>
+					<br>
+ 				<form action="/action_page.php">
+				  <input type="checkbox" name="loan" value="payment"> I have a down payment<br>
+				  <input type="checkbox" name="loan" value="outState"> Out-of-state resident<br>
+				  <input type="checkbox" name="loan" value="married"> Married <br>
+				  <input type="checkbox" name="loan" value="cosigned"> Loan will be co-signed<br>
+				</form>
+					<br>
+					<hr>
+				<h4>Additional Comments</h4>
+					<textarea cols="50" rows="5">
+						Comments
+					</textarea>
+
+					<br><br><br>
+					<br><br><br>
+
+
+	</body>
+</html>
+
+  
+    
+
+
+
